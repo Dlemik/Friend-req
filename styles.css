@@ -1,0 +1,70 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .friend-requests {
+    background: radial-gradient(circle at top right, #ff8a00 20%, transparent 40%),
+                radial-gradient(circle at bottom left, #ff3e3e 20%, transparent 40%),
+                #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    width: 350px; 
+    height: 270px;
+  }
+  
+  .friend-requests h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .friend-requests ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-requests li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .friend-requests li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .friend-requests li h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .friend-requests li p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .friend-requests button {
+    margin-left: auto;
+    background-color: #fff;
+    border: none;
+    color: #ff3e3e;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friend-requests button:hover {
+    background-color: #ff3e3e;
+    color: #fff;
+  }
+  
